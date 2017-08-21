@@ -1,6 +1,6 @@
 // fixture data
 if (Posts.find().count() === 0) {
-  var now = new Date.getTime();
+  var now = new Date().getTime();
   
   // create two new users
   var tomId = Meteor.users.insert({
